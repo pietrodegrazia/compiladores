@@ -1,15 +1,104 @@
+<<<<<<< HEAD
 int a = 'a';
 
+=======
+char b='l';
+>>>>>>> 834dc09c41d4e5a681819aa50ad7f0f9a36aa34d
 int a = 0;
 int main(int b, int c) {
  	a = main(a,b);
  	return bfl;
+//int a=4; // ERRO
+float c[10];
+int aux=0;
+int #pt=0;
+
+int func1() {
+  aux=a;
+  a=2;
+  //aux=inexistente; // ERRO
+  //aux=a[0]; // ERRO
+  //a[0]=aux; // ERRO
+
+  c[0]=a;
+  a=c[0];
+  //c=a; // ERRO
+  //a=c; // ERRO
+
+  a=func1();
+  //a=func1 // ERRO
+
+  a=c[a];
+  a=c[2];
+  a=c[a+3];
+  //a=c[a+3.5]; //ERRO
+  //a=c[2+3.5]; //ERRO
+
+  //a=pt-2; // ERRO
+  //a=2-pt; // ERRO
+  a=2+pt;
+  a=pt+2;
+
+  a=#pt;
+  a=pt;
+  #a=pt;
+  #pt=a;
+  //pt=a; // ERRO
+  pt=&a;
+  //pt=#a; // ERRO
+
+  //a=3+(5>3); // ERRO
+
+  if(3>5) then a=2;
+  if(3>5) then a=2 else a=3;
+  //a=3+2<5; // ERRO
+  //if(3+5) then a=2; // ERRO
+  if(3+5>50) then a=2; // ERRO
+  //if(3+(5>50)) then a=2; // ERRO
+  //if(3+5) then a=2 else a=3;// ERRO
+  //if(3>5) then a=2>3 else a=3;// ERRO
+  while(a>1) a=2;
+  for(a=2 to 10) ;
+
+  print "Hello World" a b c[2];
+}
+
+int abe=0;
+char ace=0;
+float ade=0;
+
+int func2(int oi, char eae, float dale) {
+  a=func2(ace, ade, abe);
+  //a=func2(ace, ade); // ERRO
+}
+
+int func3() {
+  return 0;
 }
 /*
 
-int a=2;
+/*int func4() {
+  return 0.5;
+}*/ // ERRO
+
+
+
+/*
+int i=2;
 float d=4.123;
 int #pt = 0;
+int v[10];
+
+int incn (int x, int n)
+  {
+  return x+n;
+  }
+
+int voidfunc()
+  {
+  }
+  
+
 
 int main() {
   a = 10;
@@ -18,7 +107,7 @@ int main() {
   v[2] = v[10-1];
   for (i = 1 to 10)
     print i " ";
-}
+
 
   print " Digite um numero: \n";
   read i;
@@ -38,15 +127,6 @@ int main() {
   ;;;
   {;};
   {}
-  }
 
-int incn (int x, int n)
-  {
-  return x+n;
-  }
-
-int voidfunc()
-  {
-  }
-  
+}
 */

@@ -1,0 +1,48 @@
+<<<<<<< HEAD
+=======
+char b = 'l';
+int a = 0;
+float c[10];
+int aux = 0;
+int #pt = 0;
+int func1() {
+aux = a;
+a = 2;
+c[0] = a;
+a = c[0];
+a = func1();
+a = c[a];
+a = c[2];
+a = c[a + 3];
+a = 2 + pt;
+a = pt + 2;
+a = #pt;
+a = pt;
+Not implemented yet. ast-> 50
+;
+Not implemented yet. ast-> 50
+;
+pt = &a;
+if (3 > 5)then 
+a = 2;
+if (3 > 5)then 
+a = 2else a = 3
+;
+if (3 + 5 > 50)then 
+a = 2;
+while (a > 1)
+a = 2;
+for (a = 2 to 10)
+;
+print "Hello World" a b c[2] ;
+}
+int abe = 0;
+char ace = 0;
+float ade = 0;
+int func2(int oi, char eae, float dale) {
+a = func2(ace, ade, abe);
+}
+int func3() {
+return 0;
+}
+>>>>>>> 834dc09c41d4e5a681819aa50ad7f0f9a36aa34d

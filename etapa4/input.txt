@@ -1,10 +1,11 @@
 int a = 'a';
-/*
+
 int a = 0;
 int main(int b, int c) {
  	a = main(a,b);
  	return bfl;
 }
+/*
 
 int a=2;
 float d=4.123;
